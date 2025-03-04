@@ -5,7 +5,7 @@ on:
     inputs:
       branch:
         description: 'Padavan-NG分支'
-        default: 'main'
+        default: 'master'
         required: false
       commit:
         description: 'Padavan-NG提交哈希'
