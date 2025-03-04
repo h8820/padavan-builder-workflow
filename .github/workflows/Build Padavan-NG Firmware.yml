@@ -3,9 +3,7 @@ name: Build Padavan-NG Firmware
 on:
   workflow_dispatch:
   push:
-    branches:
-      - main
-      - master
+    
     tags:
       - '*'
 
@@ -18,8 +16,8 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        repository: h8820/hadzhioglu-padavan-ng
-        ref: main
+        repository: https://github.com/h8820/hadzhioglu-padavan-ng.git
+        ref: 0202
 
     - name: Setup build environment
       run: |
