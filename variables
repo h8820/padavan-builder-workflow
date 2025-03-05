@@ -1,4 +1,4 @@
 PADAVAN_REPO="https://github.com/h8820/hadzhioglu-padavan-ng.git"
-PADAVAN_COMMIT="HEAD"
+PADAVAN_BRANCH="0202"
 PADAVAN_TOOLCHAIN_URL="https://gitlab.com/api/v4/projects/hadzhioglu%2Fpadavan-ng/packages/generic/toolchain/latest/toolchain.tzst"
 
