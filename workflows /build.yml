@@ -5,6 +5,10 @@ on:
   push:
     tags:
       - '*'
+    branches:
+      - master
+      - 02  # 如果你希望在推送到 02 分支时触发
+
 
 jobs:
   build:
