@@ -2,9 +2,7 @@ name: Build firmware
 
 on:
   workflow_dispatch:
-  push:
-    tags:
-      - '*'
+  
 
 jobs:
   build:
